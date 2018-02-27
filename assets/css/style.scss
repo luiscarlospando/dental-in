@@ -1,0 +1,45 @@
+@import "fonts";
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    float: left;
+}
+
+.navbar-default {
+    color: #fff;
+    
+    a {
+        color: #fff;
+    }
+}
+
+.flexslider {
+    border: 0px;
+    position: relative;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        background: rgba(0,0,0,0.01);
+    }
+}
