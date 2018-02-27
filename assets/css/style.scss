@@ -21,16 +21,34 @@ footer {
 }
 
 .navbar-default {
+    background-color: transparent;
     color: #fff;
+    transition: background-color 200ms linear;
     
     a {
         color: #fff;
     }
 }
 
+.scrolled {
+    background-color: #fff !important;
+    color: #000;
+    transition: background-color 200ms linear;
+
+    a {
+        color: #000;
+    }
+}
+
 .flexslider {
     border: 0px;
     position: relative;
+
+    .flex-direction-nav {
+        a {
+            height: 48px;
+        }
+    }
 
     .overlay {
         position: absolute;
